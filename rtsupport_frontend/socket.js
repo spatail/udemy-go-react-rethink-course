@@ -7,7 +7,7 @@ class Socket {
 
 		ws.onmessage = this.message.bind(this);
 		ws.onopen = this.open.bind(this);
-		ws.close = this.close.bind(this);
+		ws.onclose = this.close.bind(this);
 	}
 
 	on(name, fn) {
@@ -20,7 +20,7 @@ class Socket {
 
 	emit(name, data) {
 		const message = JSON.stringify({name, data});
-		this.ws.sent(message);
+		this.ws.send(message);
 	}
 
 	message(e) {
