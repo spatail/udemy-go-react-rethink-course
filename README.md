@@ -1,1 +1,1 @@
-# udemy-go-react-rethink-course
+Coursework for Udemy's [Realtime Apps with Golang, ReactJS, and RethinkDB](https://www.udemy.com/realtime-apps-with-reactjs-golang-rethinkdb)
