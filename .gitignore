@@ -35,3 +35,7 @@ node_modules
 # Webpack output files
 bundle.js
 bundle.js.map
+
+# Go directories
+go_workspace/*
+!go_workspace/src/github.com/spatail
